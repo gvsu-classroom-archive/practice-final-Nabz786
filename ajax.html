@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <style>
+        body {
+            background: #CCC;
+        }
+        
+        .itemStyle,
+        .itemStyle2,
+        .itemStyle3 {
+            white-space: pre;
+            margin-left: 20px;
+        }
+
+        .itemStyle {
+            margin-top: 55px;
+            padding-top: 7px;
+        }
+
+        .itemHolder {
+            margin: 0 auto;
+            height: 70px;
+            width: 210px;
+            background-color: #fff;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 6px -6px #777;
+            border-radius: 15px;
+        }
+
+        .submitHolder {
+            width: 210px;
+            height: 50px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+            <div class='submitHolder'>
+                Enter Your Order Number:
+                <input type='text' id='orderId'><br>
+                <br>
+                <button id='submit'>Submit</button>
+            </div>
+
+    </div>
+    <h3 id='orderTitle'></h3>
+    <h5 id='itemHeaders'></h5>
+    <div id='itemList'></div>
+    <script src='ajax.js'></script>
+</body>
+
+</html>
